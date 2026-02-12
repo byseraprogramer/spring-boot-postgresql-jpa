@@ -31,4 +31,6 @@ Alternatively, you can package the application in the form of a JAR file and the
 ```bash
 mvn clean package
 java -jar target/postgres-demo-0.0.1-SNAPSHOT.jar
+
+test  commit for CI
 ```
