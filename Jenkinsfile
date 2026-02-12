@@ -5,7 +5,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/byseraprogramer/spring-boot-postgresql-jpa.git'
+                git branch: 'main',
+                 url:'https://github.com/byseraprogramer/spring-boot-postgresql-jpa.git'
             }
         }
 
